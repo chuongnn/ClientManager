@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : parsingRequest.xml
+    Created on : June 9, 2011, 9:20 AM
+    Author     : ChuongNN
+    Description:
+        Describe a parsing request
+-->
+
+<parsingRequest>
+	<folderPath value="/root/Desktop/test/Inputs/20110420_160000/"/>
+	<folderPath value="/root/Desktop/test/Inputs/20110421_000000/"/>
+	<folderPath value="/root/Desktop/test/Inputs/20110421_080000/"/>
+	<folderPath value="/root/Desktop/test/Inputs/20110421_160000/"/>
+
+	<regex value= "\x56\xe2\x20\xa7\x61\x6e\x67\x20\xae\xb9\x6f\x20\x67\x69\x61"/>
+	<regex value= "[^\x09]+\x09[^\x09]+\x09[^\x09]+\x20\x20\x09\x39\x30"/>
+</parsingRequest>
